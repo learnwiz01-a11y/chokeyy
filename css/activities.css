@@ -1,20 +1,28 @@
 body {
   text-align: center;
   margin-top: 30px;
-  font-family: "Courier";
+  font-family: "Courier New", Courier, monospace;
   background-color: #fff5e4;
   color: #ff9494;
 }
+
 #activityquestion {
   font-size: 50px;
   margin-bottom: 30px;
 }
+
+.activities-selection {
+  max-width: 1100px;
+  margin: auto;
+}
+
 .activity-item {
   display: inline-block;
-  margin: 10px;
+  margin: 15px;
   vertical-align: top;
   color: #ff9494;
 }
+
 .activity-item img {
   height: 200px;
   width: 200px;
@@ -22,19 +30,34 @@ body {
   border: 5px solid #ff9494;
   object-fit: cover;
   padding: 10px;
+  transition: transform 0.3s ease;
 }
+
+.activity-item img:hover {
+  transform: scale(1.05);
+}
+
 .activity-item label {
   display: block;
+  margin-top: 8px;
+  font-size: 18px;
 }
+
 .button {
-  padding: 10px 20px;
+  padding: 12px 25px;
   font-size: 18px;
   cursor: pointer;
-  margin: 10px;
-  font-family: "courier";
-  margin-bottom: 20px;
+  margin: 15px;
+  font-family: "Courier New", Courier, monospace;
   background-color: #ffe3e1;
   color: #e67373;
   border-radius: 12px;
   border: 2px solid #ffe3e1;
+  transition: all 0.3s ease;
+}
+
+.button:hover {
+  background-color: #ff9494;
+  color: white;
+  border-color: #ff9494;
 }
