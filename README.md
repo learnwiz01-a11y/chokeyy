@@ -1,40 +1,33 @@
-# Will You Be My Valentine?
+# My Personalized Interactive Date Planner 🧁
 
-Welcome to the "Will You Be My Valentine?" project, a playful and interactive way to ask that special someone the big question this Valentine's Day. Hosted as a GitHub Page, this project offers a unique blend of creativity and technology to make your Valentine's Day proposal unforgettable.
+Welcome to my custom version of the interactive date planner! Originally forked from Moonshine, I have personalized this project with my own favorite food spots, activities, and a touch of wit to create a unique experience for my partner.
 
 ## Overview
 
-"Will You Be My Valentine?" is a web-based application that presents users with the question "Will you be my valentine?" followed by two options: "Yes" and "No". What makes this project special is the interactive and engaging way it handles responses, especially if someone tries to click "No".
+This is a web-based application designed to plan the perfect day. It starts with a playful question and leads the user through a series of choices for food, dessert, and activities. It features a "smart" interaction where the "No" button playfully avoids being clicked, ensuring the answer is always "Yes!"
 
-## Features
+## Personalized Features
 
-- **Interactive Question**: The core of the project is the interactive Valentine's Day proposal.
-- **Responsive Design**: Crafted to look great on both desktop and mobile devices.
-- **Playful Interaction**: If the user attempts to click "No", watch out for a little surprise that might just sway their decision!
+- **Custom Food Selection**: Includes favorites like brunch at Paul, ramen at Lea Izakaya, and sushi at Kofuku.
+- **Sweet Treats**: Features Natural's ice cream and Big Chill pastries.
+- **Fun Activities**: Choose between Netflix and chill, bowling, arcade games, and more.
+- **Responsive Design**: Works perfectly on mobile for planning on the go.
 
-## Technology
+## Technology Used
 
-This project is built using simple yet powerful web technologies:
-- HTML
-- CSS
-- JavaScript
+- HTML5
+- CSS3 (Custom animations for the final flower surprise)
+- JavaScript (For the interactive button logic)
 
 ## How to View
 
-To experience "Will You Be My Valentine?", simply visit [https://mehedyhassanratul.github.io/moonshine/](https://mehedyhassanratul.github.io/moonshine/) from any modern web browser.
+To experience my personalized version, visit my live site here:
+[https://learnwiz01-a11y.github.io/chokeyy/](https://learnwiz01-a11y.github.io/chokeyy/)
 
-## How to Contribute
+## Credits
 
-Contributions to the "Will You Be My Valentine?" project are more than welcome. Whether it's suggesting new features, improving the design, or fixing bugs, here's how you can contribute:
-
-1. **Fork the Repository**: Start by forking the [project repository](https://github.com/mehedyhassanratul/moonshine/) on GitHub.
-2. **Clone Your Fork**: Clone your fork to your local machine for development.
-3. **Create a New Branch**: Make a new branch for your changes.
-4. **Make Your Changes**: Implement your feature, fix, or improvement.
-5. **Commit Your Changes**: Commit your changes with a clear and descriptive commit message.
-6. **Push to Your Fork**: Push your changes up to your fork.
-7. **Open a Pull Request**: Back on GitHub, open a pull request from your fork to the main project.
+This project is a personalized fork of the [Moonshine](https://github.com/mehedyhassanratul/moonshine/) project by Mehedy Hassan Ratul. I have modified the assets, text, and structure to make it my own.
 
 ## Support
 
-If you encounter any issues or have questions about the project, feel free to open an issue on the GitHub repository.
+If you have questions about my modifications or want to see how I personalized the JPEGs and HTML paths, feel free to check the commit history!
