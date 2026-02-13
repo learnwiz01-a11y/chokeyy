@@ -1,69 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Food Selection</title>
-    <link rel="stylesheet" href="css/food.css" />
-  </head>
-  <body>
-    <div id="foodquestion">
-      <b>What food would you like to eat?</b>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Food Selection</title>
+  <link rel="stylesheet" href="./food.css">
+</head>
+
+<body>
+
+  <div id="foodquestion">
+    <b>What food would you like to eat?</b>
+  </div>
+
+  <div class="food-selection">
+
+    <div class="food-item">
+      <img src="./me.jpeg" alt="Me">
+      <label>
+        <input type="checkbox" name="food" value="Me"> me hehe
+      </label>
     </div>
 
-    <div class="food-selection">
-      <div class="food-item">
-        <img src="food/me.jpeg" alt="me" />
-        <label>
-          <input type="checkbox" name="food" value="me" /> me hehe
-        </label>
-      </div>
-
-      <div class="food-item">
-        <img src="food/brunch.jpeg" alt="brunch" />
-        <label>
-          <input type="checkbox" name="food" value="brunch" /> brunch at paul
-        </label>
-      </div>
-
-      <div class="food-item">
-        <img src="food/italian.jpeg" alt="italian" />
-        <label>
-          <input type="checkbox" name="food" value="italian" /> italian
-        </label>
-      </div>
-
-      <div class="food-item">
-        <img src="food/indian.jpeg" alt="indian" />
-        <label>
-          <input type="checkbox" name="food" value="indian" /> indian
-        </label>
-      </div>
-
-      <div class="food-item">
-        <img src="food/mcdonalds.jpeg" alt="mcdonalds" />
-        <label>
-          <input type="checkbox" name="food" value="mcdonalds" /> McDonalds :)
-        </label>
-      </div>
-
-      <div class="food-item">
-        <img src="food/sushi.jpeg" alt="sushi" />
-        <label>
-          <input type="checkbox" name="food" value="sushi" /> sushi at Kofuku
-        </label>
-      </div>
-
-      <div class="food-item">
-        <img src="food/ramen.jpeg" alt="ramen" />
-        <label>
-          <input type="checkbox" name="food" value="ramen" /> ramen at Lea Izakaya
-        </label>
-      </div>
+    <div class="food-item">
+      <img src="./brunch.jpeg" alt="Brunch">
+      <label>
+        <input type="checkbox" name="food" value="Brunch"> brunch at paul
+      </label>
     </div>
 
-    <button class="button" onclick="location.href='dessert.html'">
-      Continue Hihihhh... 
-    </button>
-  </body>
+    <div class="food-item">
+      <img src="./italian.jpeg" alt="Italian">
+      <label>
+        <input type="checkbox" name="food" value="Italian"> italian
+      </label>
+    </div>
+
+    <div class="food-item">
+      <img src="./indian.jpeg" alt="Indian">
+      <label>
+        <input type="checkbox" name="food" value="Indian"> indian
+      </label>
+    </div>
+
+    <div class="food-item">
+      <img src="./mcdonalds.jpeg" alt="McDonalds">
+      <label>
+        <input type="checkbox" name="food" value="McDonalds"> McDonalds :)
+      </label>
+    </div>
+
+    <div class="food-item">
+      <img src="./sushi.jpeg" alt="Sushi">
+      <label>
+        <input type="checkbox" name="food" value="Sushi"> sushi at Kofuku
+      </label>
+    </div>
+
+    <div class="food-item">
+      <img src="./ramen.jpeg" alt="Ramen">
+      <label>
+        <input type="checkbox" name="food" value="Ramen"> ramen at Lea Izakaya
+      </label>
+    </div>
+
+    <!-- ICE CREAM FIX -->
+    <div class="food-item">
+      <img src="./icecream.jpeg" alt="Ice Cream">
+      <label>
+        <input type="checkbox" name="food" value="Ice Cream"> Ice cream 🍦
+      </label>
+    </div>
+
+  </div>
+
+  <button class="button" onclick="location.href='dessert.html'">
+    Continue Hihihhh...
+  </button>
+
+</body>
 </html>
