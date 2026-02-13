@@ -11,7 +11,7 @@ body {
   margin-bottom: 40px;
 }
 
-/* FIXED LAYOUT */
+/* FIXED LAYOUT FOR GRID */
 .activities-selection {
   display: flex;
   justify-content: center;
@@ -24,6 +24,7 @@ body {
 .activity-item {
   text-align: center;
   width: 220px;
+  max-width: 45%; /* Improved mobile responsiveness */
 }
 
 .activity-item img {
@@ -41,9 +42,14 @@ body {
   transform: scale(1.05);
 }
 
+/* Flexbox added here to align checkbox and text perfectly */
 .activity-item label {
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
   font-size: 18px;
+  cursor: pointer;
 }
 
 .button {
